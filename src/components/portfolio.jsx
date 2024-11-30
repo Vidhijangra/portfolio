@@ -3,12 +3,14 @@ import React from "react";
 import fold from "../img/Folds/3.0.jpg";
 import fold1 from "../img/Folds/3.1.jpeg";
 import fold2 from "../img/Folds/3.2.jpeg";
+import fold3 from "../img/Folds/Title image.jpg";
 
 import estate1 from "../img/100 gharon ki jaagir-- An estate of 100 houses/6.jpg";
 import estate2 from "../img/100 gharon ki jaagir-- An estate of 100 houses/6.1.jpg";
 
 import books1 from "../img/Accordion book of Aspirations/4.1.jpeg";
 import books2 from "../img/Accordion book of Aspirations/4.jpeg";
+import books3 from "../img/Accordion book of Aspirations/1.Title image.jpg"
 
 import chaupad1 from "../img/Ghar Chaupad/2.0.jpeg";
 import chaupad2 from  "../img/Ghar Chaupad/2.1.jpg";
@@ -20,18 +22,22 @@ import home2 from "../img/Home_ Delivery/4.1.jpg";
 
 import love1 from "../img/How to fall in love with everyone and everything/2.0.jpeg";
 import love2 from "../img/How to fall in love with everyone and everything/2.1.jpeg";
+import love3 from "../img/How to fall in love with everyone and everything/IMG_4306.jpeg"
 
 import Tic1 from "../img/Ticky tacky/3.0.jpg";
 import Tic2 from "../img/Ticky tacky/3.1.jpg";
 import Tic3 from "../img/Ticky tacky/3.2.jpg";
 import Tic4 from "../img/Ticky tacky/3.3.jpg";
+import Tic5 from "../img/Ticky tacky/Title image .jpg";
 
 import Live1 from "../img/Where I live/1.0.jpeg";
 import Live2 from "../img/Where I live/1.1.jpg";
+import Live3 from "../img/Where I live/Title image.jpg";
 
 import Long1 from "../img/Longings/1.jpg";
 import long2 from "../img/Longings/IMAGE1.jpg";
 import long3 from "../img/Longings/IMAGE2.jpg";
+import long4 from "../img/Longings/Title_image.jpg";
 
 
 class Portfolio extends React.Component {
@@ -125,9 +131,9 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-              <a href={Live1} data-lightbox="gallery-Live1">
+              <a href={Live3} data-lightbox="gallery-Live1">
                   <div className="work-img">
-                  <img src={Live1} alt="" className="img-fluid"/>
+                  <img src={Live3} alt="" className="img-fluid"/>
                   </div>
                   <div className="work-content">
                   <div className="row">
@@ -149,13 +155,20 @@ class Portfolio extends React.Component {
               >
                   jsx-a11y/anchor-has-content warning
               </a>
+              <a
+                  href={Live1}
+                  data-lightbox="gallery-Live1"
+                  style={{display: "none"}}
+              >
+                  jsx-a11y/anchor-has-content warning
+              </a>
               </div>
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={love1} data-lightbox="gallery-love1">
+                <a href={love3} data-lightbox="gallery-love1">
                   <div className="work-img">
-                  <img src={love1} alt="" className="img-fluid"/>
+                  <img src={love3} alt="" className="img-fluid"/>
                   </div>
                   <div className="work-content">
                   <div className="row">
@@ -171,6 +184,13 @@ class Portfolio extends React.Component {
                   </div>
                 </a>
                 <a
+                    href={love1}
+                    data-lightbox="gallery-love1"
+                    style={{display: "none"}}
+                >
+                    jsx-a11y/anchor-has-content warning
+                </a>
+                <a
                     href={love2}
                     data-lightbox="gallery-love1"
                     style={{display: "none"}}
@@ -181,9 +201,9 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={Long1} data-lightbox="gallery-Long1">
+                <a href={long4} data-lightbox="gallery-Long1">
                   <div className="work-img">
-                  <img src={Long1} alt="" className="img-fluid"/>
+                  <img src={long4} alt="" className="img-fluid"/>
                   </div>
                   <div className="work-content">
                   <div className="row">
@@ -197,6 +217,13 @@ class Portfolio extends React.Component {
                       </div>
                   </div>
                   </div>
+                </a>
+                <a
+                  href={Long1}
+                  data-lightbox="gallery-Long1"
+                  style={{display: "none"}}
+                >
+                  jsx-a11y/anchor-has-content warning
                 </a>
                 <a
                   href={long2}
@@ -216,9 +243,9 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-              <a href={books1} data-lightbox="gallery-books1">
+              <a href={books3} data-lightbox="gallery-books1">
                   <div className="work-img">
-                  <img src={books1} alt="" className="img-fluid"/>
+                  <img src={books3} alt="" className="img-fluid"/>
                   </div>
                   <div className="work-content">
                   <div className="row">
@@ -234,6 +261,13 @@ class Portfolio extends React.Component {
                   </div>
               </a>
               <a
+                  href={books1}
+                  data-lightbox="gallery-books1"
+                  style={{display: "none"}}
+              >
+                  jsx-a11y/anchor-has-content warning
+              </a>
+              <a
                   href={books2}
                   data-lightbox="gallery-books1"
                   style={{display: "none"}}
@@ -245,9 +279,9 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-              <a href={Tic1} data-lightbox="gallery-Tic1">
+              <a href={Tic5} data-lightbox="gallery-Tic1">
                   <div className="work-img">
-                  <img src={Tic1} alt="" className="img-fluid"/>
+                  <img src={Tic5} alt="" className="img-fluid"/>
                   </div>
                   <div className="work-content">
                   <div className="row">
@@ -261,6 +295,13 @@ class Portfolio extends React.Component {
                       </div>
                   </div>
                   </div>
+              </a>
+              <a
+                  href={Tic1}
+                  data-lightbox="gallery-Tic1"
+                  style={{display: "none"}}
+              >
+                  jsx-a11y/anchor-has-content warning
               </a>
               <a
                   href={Tic2}
@@ -287,9 +328,9 @@ class Portfolio extends React.Component {
             </div>
             <div className="col-md-4">
               <div className="work-box">
-              <a href={fold} data-lightbox="gallery-fold">
+              <a href={fold3} data-lightbox="gallery-fold">
                   <div className="work-img">
-                  <img src={fold} alt="" className="img-fluid"/>
+                  <img src={fold3} alt="" className="img-fluid"/>
                   </div>
                   <div className="work-content">
                   <div className="row">
@@ -303,6 +344,13 @@ class Portfolio extends React.Component {
                       </div>
                   </div>
                   </div>
+              </a>
+              <a
+                  href={fold}
+                  data-lightbox="gallery-fold"
+                  style={{display: "none"}}
+              >
+                  jsx-a11y/anchor-has-content warning
               </a>
               <a
                   href={fold1}

@@ -1015,3 +1015,15 @@ BUTTON
 .work-img img {
   transition: all 100s;
 }
+
+.work-content {
+    padding: 1% 1% 1% 1%;
+}
+
+.box-shadow, .paralax-mf, .service-box, .work-box, .card-blog {
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.work-box {
+  background-color: #f5f5f5;
+}
